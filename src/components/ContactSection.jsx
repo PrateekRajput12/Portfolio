@@ -8,6 +8,7 @@ import {
   Twitch,
   Twitter,
 } from "lucide-react";
+// import emailjs from 'emailjs-com'
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
@@ -20,6 +21,9 @@ export const ContactSection = () => {
     e.preventDefault();
 
     setIsSubmitting(true);
+
+    // emailjs.sendForm('your_service_id', 'your_template_id', e.target, 'your_user_id')
+
 
     setTimeout(() => {
       toast({
@@ -56,10 +60,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:prateekrajputfreelancegmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    prateekrajputfreelance@gmail.com
                   </a>
                 </div>
               </div>
@@ -84,7 +88,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Noida , Uttar Pradesh
                   </a>
                 </div>
               </div>
@@ -93,7 +97,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/prateek-rajput-13b97b294" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">

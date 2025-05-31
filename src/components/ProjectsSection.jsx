@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Job Portal",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    image: "/projects/Project1.png",
+    tags: ["React", "TailwindCSS", "MongoDB", "Express", "NodeJS"],
+    demoUrl: "https://jobportalui-black.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/JobPortal-UI.git",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Video Streaming Application",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Video Streaming Application youtube clone",
+    image: "/projects/Project2.png",
+    tags: ["React", "Redux", "tailwindCSS"],
+    demoUrl: "https://mytube-swart.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/Youtube",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Full-featured e-commerce platform ",
+    image: "/projects/Project3.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://prateekecommerce.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/Eccomerce",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/PrateekRajput12"
           >
             Check My Github <ArrowRight size={16} />
           </a>
