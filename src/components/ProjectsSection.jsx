@@ -30,6 +30,39 @@ const projects = [
     demoUrl: "https://prateekecommerce.vercel.app/",
     githubUrl: "https://github.com/PrateekRajput12/Eccomerce",
   },
+  {
+    id: 4,
+    title: "Streamify",
+    description:
+      "Real-time video calling and chat application built with MERN stack. Users can send and accept friend requests, chat instantly, and start secure video calls once connected.",
+    image: "/projects/Project4.png",
+    tags: ["MERN", "WebRTC", "Socket.io", "Stream Chat"],
+    demoUrl: "https://talky-evzp.onrender.com",
+    githubUrl: "https://github.com/PrateekRajput12/talky",
+  },
+  {
+    id: 5,
+    title: "ShopEase",
+    description:
+      "Full-stack eCommerce platform built with MERN stack featuring user authentication, product management, order tracking, and an admin panel for managing products, categories, and users.",
+    image: "/projects/Project5.png",
+    tags: ["MERN", "Redux", "Node.js", "Express", "MongoDB", "TailwindCSS", "JavaScript", "HTML", "CSS"],
+    demoUrl: "https://ecommerce-91p6.onrender.com/",
+    githubUrl: "https://github.com/PrateekRajput12/eCcomerce",
+  },
+  {
+    id: 6,
+    title: "NetVision",
+    description:
+      "Netflix clone built with MERN stack featuring user authentication, dynamic movie listings, trailers, and personalized watchlists with a responsive modern UI.",
+    image: "/projects/Project6.png",
+    tags: ["MERN", "TMDB API", "React", "TailwindCSS"],
+    demoUrl: "https://netflix-nu-jade.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/Netflix",
+  }
+
+
+
 ];
 
 export const ProjectsSection = () => {
@@ -50,7 +83,7 @@ export const ProjectsSection = () => {
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card relative rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -70,11 +103,11 @@ export const ProjectsSection = () => {
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-start text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
+                <div className="flex absolute bottom-4 justify-between    items-center">
+                  <div className="flex  space-x-3 ">
                     <a
                       href={project.demoUrl}
                       target="_blank"
