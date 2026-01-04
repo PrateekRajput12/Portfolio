@@ -59,6 +59,34 @@ const projects = [
     tags: ["MERN", "TMDB API", "React", "TailwindCSS"],
     demoUrl: "https://netflix-nu-jade.vercel.app/",
     githubUrl: "https://github.com/PrateekRajput12/Netflix",
+  },
+  {
+    id: 7,
+    title: "Luxury Beauty",
+    description:
+      "Beauty Parlour Website – Designed and developed a modern beauty parlour platform with service management, appointment scheduling, gallery display, and a fully responsive UI.", image: "/projects/Project7.png",
+    tags: ["MERN", "React", "TailwindCSS"],
+    demoUrl: "https://beauty-parlour-rho.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/Beauty-Parlour",
+  },
+  {
+    id: 8,
+    title: "Saloon",
+    description:
+      "Designed and developed a stylish salon website with service management, appointment scheduling, stylist details, gallery display, and a fully responsive modern UI.", image: "/projects/Project8.png",
+    tags: ["MERN", "React", "JSX", "Motion", "TailwindCSS"],
+    demoUrl: "https://saloon-plum.vercel.app/",
+    githubUrl: "https://github.com/PrateekRajput12/Saloon",
+  },
+  {
+    id: 9,
+    title: "RealEstate Agent",
+    description:
+      "Designed and developed a real estate agent website with property showcases, lead inquiry forms, WhatsApp integration, booking options, and a sleek responsive UI."
+    , image: "/projects/Project9.png",
+    tags: ["MERN", "React", "JSX", "Motion", "TailwindCSS"],
+    demoUrl: "https://realestate1-e863.onrender.com/",
+    githubUrl: "https://github.com/PrateekRajput12/Real-State-Agent",
   }
 
 
