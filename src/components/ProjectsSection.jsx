@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Job Portal",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/Project1.png",
+    image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "MongoDB", "Express", "NodeJS"],
     demoUrl: "https://jobportalui-black.vercel.app/",
     githubUrl: "https://github.com/PrateekRajput12/JobPortal-UI.git",
@@ -15,7 +15,7 @@ const projects = [
     title: "Video Streaming Application",
     description:
       "Video Streaming Application youtube clone",
-    image: "/projects/Project2.png",
+    image: "/projects/project2.png",
     tags: ["React", "Redux", "tailwindCSS"],
     demoUrl: "https://mytube-swart.vercel.app/",
     githubUrl: "https://github.com/PrateekRajput12/Youtube",
@@ -25,7 +25,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform ",
-    image: "/projects/Project3.png",
+    image: "/projects/project3.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://prateekecommerce.vercel.app/",
     githubUrl: "https://github.com/PrateekRajput12/Eccomerce",
